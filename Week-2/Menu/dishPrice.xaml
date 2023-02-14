@@ -74,7 +74,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="337.6,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Please enter the Dish Price: " Title="Dish Price">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Dish Price" sap:VirtualizedContainerService.HintSize="337.6,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Please enter the Dish Price: " Title="Dish Price">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Double">[out_dishPrice]</OutArgument>
       </ui:InputDialog.Result>

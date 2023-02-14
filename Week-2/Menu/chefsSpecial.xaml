@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1234.4,562.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>850.4,472</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>chefsSpecial_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -73,7 +73,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="337.6,295.2" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Is this a Chef's Special?" OptionsString="[(&quot;Yes; No&quot;)]" Title="Chef's Special">
+    <ui:InputDialog Options="{x:Null}" DisplayName="Chef's Specials" sap:VirtualizedContainerService.HintSize="337.6,295.2" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Is this a Chef's Special?" OptionsString="[(&quot;Yes; No&quot;)]" Title="Chef's Special">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[out_chefsSpecial]</OutArgument>
       </ui:InputDialog.Result>
