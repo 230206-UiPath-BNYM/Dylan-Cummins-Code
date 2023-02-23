@@ -1,0 +1,129 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sign_In" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1323.2,1045.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="46">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sign_In" sap:VirtualizedContainerService.HintSize="496,980.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: Sign In | Pega Studio Training Web Application" sap:VirtualizedContainerService.HintSize="433.6,868.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="adae5a22-0c55-4799-bd4a-779efe4e14fe" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,652" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Type Into 'INPUT user_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="adae5a22-0c55-4799-bd4a-779efe4e14fe" Text="lake" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/login" DesignTimeRectangle="753, 390, 390, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT user_name'" FullSelectorArgument="&lt;webctrl id='login_section' tag='TABLE' /&gt;&lt;webctrl id='user_name' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login_section' tag='TABLE' /&gt;&lt;webctrl id='user_name' type='text' tag='INPUT' class='input_text' aaname='' /&gt;" Guid="76ad33db-c1eb-40ee-854c-c15e75fc4888" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAYoAAAAmCAYAAADa19wxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJOSURBVHhe7dlrbuIwFAbQWXU2kVUgllF2wR6QWIWH+BFsA1abwmhKz5Gu1ODE9q/7Nc6fAAADggKAoTUoTqeTUkoptVbRBAUALAQFAEOCAoAhQQHAkKAAYEhQADAkKAAYEhQADAkKAIYEBQBDggKAoU1Bcf6YwzQfwjlfF49+f7bjfgrTtAvHfF3E9ff9rwB8xw8OiinMH+1KggLg+X5uUMxzmKc5HKrFBAXA8702KI67+J9/qraph/Ph0ujvjZ3DYZ7Cbp+fvdP4Y1Bcfk+BcV3vJiiaNdq50hyHuFYaX46yjmG33t8ebcW5y9g/CEOA/8ULg2JpulUALKHRjF3CoHTiGCilMaegGDXjEhT9PG1Q5MBZL5fQuO4nzrFe5zXXPaR516OtZn/1+gDv78VB8aChNqGxqJt6+rv//lBrGnXVxNug6MT7uqCo7m2v2z0sY81+Yui0bxwA72pTUPT/YRe3AZLDolRuxPG++vdcqRl/MSjy/ct1HxTxvjJ/903j80GR56/2map6WwJ4Y08Nir75NvL3gvjWcPNGUftqUFzkY6XdvgqK7qjp7tHTp4IijY32A/DOtgVFeVO4adaPvwmkZ8p1er69d+PRU7a+pTRBcV0jPrMxKPpgTGs5egJ+h41BseiOlaqmvIoN9jreNP/cyG/HtgXFup+++ef5d8c2nL4UFBftcVkdgADv7RtBAcBvICgAGBIUAAwJCgCGBAUAQ4ICgCFBAcCQoABgSFAAMCQoABgSFAAMPQwKpZRSqlSxBgUA3CMoABgI4S9Yq+QHJwvMygAAAABJRU5ErkJggg==" InformativeScreenshot="25cba44c1e595ad44298bd24a319fa6d.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Sign In | Pega Studio Training Web Application' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Type Into 'INPUT user_pass'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="adae5a22-0c55-4799-bd4a-779efe4e14fe" Text="test" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/login" DesignTimeRectangle="753, 489, 390, 34" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT user_pass'" FullSelectorArgument="&lt;webctrl id='login_section' tag='TABLE' /&gt;&lt;webctrl id='user_pass' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login_section' tag='TABLE' /&gt;&lt;webctrl id='user_pass' type='password' tag='INPUT' class='input_text' aaname='' /&gt;" Guid="b27cb274-50e4-4d98-b1d7-bfd62faa9b6a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAYoAAAAmCAYAAADa19wxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI9SURBVHhe7dnRceowEAXQVzVNuAoPZYQu6IEZqvCzZEtIttkPBj5IzpnZBAVZJj97LfFvAoCAoAAgVIPidrsppZRStYouKAAgERQAhAQFACFBAUBIUAAQEhQAhAQFACFBAUBIUAAQEhQAhAQFAKGXguL+M0yn02lX43Wd8M2u4/y/jNNv+FcA3uH1oBgu030dZ7nBDtOl++MXEhQAnfcFxTy6DKdp+PnypBAUAJ2PBsX13B5NtbuNZW5979y05ftlGuo1j+OsfM9mXl57M6737tbY33c8pzB4XN9+zuU9QQFQvC8otkdPadzMaRt73/TX5p2H7es0TA1/bdrt6/nnOAz9uN47vd4ETJ23BlT72bsdRAmwMgbg9aBYn8Dbev5l9tqA26A4/D7joJFXTRik0JjXup7XcRtKu6OjNjiW9Xe7nhpas931AH/b+3YUW5vjn6EJiqQPmzY0ylP9WptdSWry6dqj38n+s0VBsQ+OfucCwMeCYvukvntyb+T3Dtdbmnxt5Olpv91J5J3FZW72TdDYUQC81WeDoswpu4u1IW+bc14vj9umniyNvY7zOml3Uhr5PD99V/F0B7GuXRv/wQ4iB8MjaPJnExQA1ceCojt6mudeu2uWhv04emoac3tdqvZpv1y3Wadr/Em3xv5Yazt/CZNl/nAe52sFBUDxUlAA8HcICgBCggKAkKAAICQoAAgJCgBCggKAkKAAICQoAAgJCgBCggKA0NOgUEoppUoVNSgA4IigACAwTf8BSv4FVIt1WwIAAAAASUVORK5CYII=" InformativeScreenshot="c82e5e92c874b597d0545dfbef726a61.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Sign In | Pega Studio Training Web Application' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Sign In'" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="adae5a22-0c55-4799-bd4a-779efe4e14fe" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/login" DesignTimeRectangle="753, 545, 70, 30" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl id='login_section' tag='TABLE' /&gt;&lt;webctrl id='login_button' tableRow='3' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login_section' tag='TABLE' /&gt;&lt;webctrl id='login_button' type='submit' tag='INPUT' class='' aaname='Sign In' check:text='Sign In' /&gt;" Guid="8455de85-a359-4fb0-9fe5-c8530ac42039" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAAiCAYAAAD4d09GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFrSURBVGhD7ZZBboMwEEXbO+ckXecqbHKHcAH2ZIuUhKlNMXyPYeIIRIn4T3pSKYXilzHtl5AsGCoThsokCvX901AQYShDhKEMEYYyRBjKEGEoQ4ShDBGGMkQYyhBZIdRdivieUlzG8+c6/d5qXtvu3rfqPn1+ocjiUHGIh5TdUSvnyfMr+zmhwjSNYTb180J5pmMlE9UvrqNppYxC9xPZPKXor/OU1/F+kSrUqeoOpayecvv7srvXSV+XKbL8HYUL99SP6Pzk1gwPP1yrQjkmf147Eyo8wxBuLvQLkRVe5s4LfIIeWFgUSi0s3bo6zIutPTdRIUzy+94TWSdUcJiQ8WExVPoJHzWUUz8sJ8obttzcVkuOVYh+IceYKP1+coRIXh1ujOOo3V+3Q0zUYvsQMJF7Etk21DB9aoLUvxR7Edl8osL2GNjpNHmRf956+xZhKEOEoQwRhjJEGMoQYShDJApF5mGoTBgqC5Ffi/R7OT0ik58AAAAASUVORK5CYII=" InformativeScreenshot="f1fa72eab43c0ad29710aea741ab5e74.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Sign In | Pega Studio Training Web Application' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH2SURBVFhH7ZS/SgNBEMZTCGIhprELGhG0MqbRxkJbESGPkM5WEGxs0lgfpLSxtPQNvCeQPIK+wbXpzu+3zsR1vcQoKhb3wcfdzs58Mzv7p1GjRo0av4XN9faRsW2mnwGC4rl4Lw7MHKAxCbGXCZ/Ec3P7HiTQFavEj2y+n9hTjsRmEPsqFDiIhFKy6l5im8Ynk5wPCmiKVD4RiP6dqc80FvadbyvkSMs9IcFVyXORM5HaoSesYt/SVEMOiLpAnDzYVvo3ZWM4dmZisXTxUKyeXhYb251ZiWNWF6GJaS0Nttb+SRElh3kyLpfP7sr1nYM4jk6lhVWfB034SWfVkMBJcGvvOE42EikgZZinUxtbHeLQZGFsKwcavcxSvkFG7jcBOHjbvRt8sd9KPFy9mRiOu2K2ePVYULTiPiaMIYd43z15/OWqhXusr19L7JAWd4NQiuG4uXD9nK3tHs6+gibiol4IreOBefeAaBwKsCFjfLGF59fMAWaj9T0zuY0teX1JmRQR8QJo9yQghea8A/h5F7zgTGQBaPJl7NuIDV8/BzliVOICOFe3MoJ80g6wQi+ITsKgafO+QArMzfaqYT+34qeJHZPgCBpTPElJwmFmYRTiXaIAf9zIF7pi4b8DJaBQzlAoxMx/ByXlZoVDaKYaNWr8NzQaL8eEf+BHvBMgAAAAAElFTkSuQmCC" InformativeScreenshot="2b53720d00090e1b2eb8f1310e210e54.jpg" Selector="&lt;html app='msedge.exe' title='Sign In | Pega Studio Training Web Application' /&gt;" Title="Sign In | Pega Studio Training Web Application" Url="https://training.openspan.com/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

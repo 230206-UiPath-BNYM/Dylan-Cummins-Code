@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Add_To_Cart" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1323.2,1259.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="49">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Add_To_Cart" sap:VirtualizedContainerService.HintSize="496,1194.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="product">
+        <Variable.Default>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Aniseed Syrup";</CSharpValue>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Home | Pega Studio Training Web Application" sap:VirtualizedContainerService.HintSize="433.6,1082.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="991b6fb6-2aeb-4574-b024-9a149d620d7a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,865.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Products'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="991b6fb6-2aeb-4574-b024-9a149d620d7a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/home" DesignTimeRectangle="926, 185, 47, 14" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Products'" FullSelectorArgument="&lt;webctrl parentid='products_menu' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='products_menu' tag='A' type='' class='menu_option' aaname='Products' check:innerText='Products' /&gt;" Guid="a9def1b9-c054-4327-a99b-7b7a6d925fdb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAASCAYAAAD2Uea5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFGSURBVEhL7ZM7EoJADIbdw9HCUegs6bkAHaUnsLXwAnZ29h7AC0TzWrJBQdCCYSj+GUiySb5kd3e9P2At2mCWqpXCXFrIQoDglDW33qFpukGd/5CH+qrg8M7n5GAKqC824ARlzzZVi4HhRsrj6/tYQcgL3l7ewhn9aNMtqk102Ku9gjLCmHwU54ZlbwflQ7/8K5Ct6SCHYayNkvQLc2PcZNifyHduiq6QxI3DpGA4DDpD57XpNAbr2I2PvplYmGDMJGhTZhvGHxsRX/c/AOPzqQZgvEaumZErRtO3xWNRbngqTC+fKoHRfxm2i58N85fN2JpfbSYVDUCuNmo+jEyIG+MmY2IDpnEWJn1bUtPVxwFQnIWx33LeDm0+jNo+rJyaIV8FtS0qcOjLmjZ9A2/z4VXkPAjBA/AxrA5mBdpglqoNZpl6wBOuCuX8ODKFnwAAAABJRU5ErkJggg==" InformativeScreenshot="cd3d28ead65537c63853ed33ee6253f7.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Home | Pega Studio Training Web Application' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Seasonings'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="991b6fb6-2aeb-4574-b024-9a149d620d7a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/products" DesignTimeRectangle="1070, 540, 125, 27" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Seasonings'" FullSelectorArgument="&lt;webctrl id='my-seasonings-table' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='my-seasonings-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='Seasonings' check:innerText='Seasonings' /&gt;" Guid="521375b5-cf0a-4df1-8731-c6e69879113c" ImageBase64="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" InformativeScreenshot="606bb4f0245574a152f716e6ac398d2b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Products | Pega Studio Training Web Application' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Aniseed Syrup'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="991b6fb6-2aeb-4574-b024-9a149d620d7a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/product/seasonings" DesignTimeRectangle="586, 389, 78, 14" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Aniseed Syrup'" FullSelectorArgument="&lt;webctrl id='shopping_beverages_products' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" Guid="1aca5388-aea9-4fb9-95b3-4dc2810e53b8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFIAAAASCAYAAADIdIn3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIrSURBVFhH7VbJbcMwEHSNrkkVpAJ/9HcL/rgC92C4A18AsxfJnaUkH1GCINEABEx5j9nZUZxVWjALFiFnwiLkTFiEnAmtkKdrWn+cU3ew+0PcU795Jf5d3FI3wWu/PacVfZ/P9/NBNEIyoW57SavtzZ78FowLKSJurulo99fN8HUEIZnsJe2NdH+yxwQmuyaBmaBsvRD3jtTP2RXr3V0iBAdaTpOr8G6CHF+Peg8LqTGYZzXZDNw3iix3y7P63cHPwXAaWI2+8GSNECgkJ5gTjzskp8NaAdh4JcA51cl5KQSL18WYOK5PGTQ4CZxmi2iFtBo84OBbhKaocyEPP4ciCEmfsx5lSQ4gJAeUQmVzCkz2TceErACxGMUlmhsX5getg8V7hA6ujkEedS6t4Rdae8f6UUjnQlk4utIJGYjYyZusAzJ8UyQggltuflYcA4eJaG7znYigfOpgcdApaGzhm980MEesF+9BSG+EKSEb1xC8w54VsqISGXPqeC7j0aAZ3AeHYmBPjenp2bgDw93+zAw6Mt4JJqQWqU0MLuEZITHGDehJEcS1tjRcoIqfa8B3wmVISKsHi8I6DIlxHMaEzHWkd44Pvdt+WcgwaEUlhCINC5nj5fV0jQVGRg9uMw8pBwjacPycBOVfTajpADXoeBEF3B/euCgkwXTQ/KvMUoTc0H8Njot/cxnwY/OXgUZ4Ec0SWvwDIc3VD4SYxCLkz2ERciYsQs6ClD4BPmjKkDFS8EIAAAAASUVORK5CYII=" InformativeScreenshot="9fc5aff4f794307a002e831cd2859e70.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Seasonings | Pega Studio Training Web Application' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.FuzzySelectorArgument>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">string.Format("&lt;webctrl id='shopping_beverages_products' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='product_detail_text' aaname='Aniseed Syrup' check:innerText='{0}' /&gt;", product)</CSharpValue>
+                    </InArgument>
+                  </uix:TargetAnchorable.FuzzySelectorArgument>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Order'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="991b6fb6-2aeb-4574-b024-9a149d620d7a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://training.openspan.com/product/detail/2/3#no-back-button" DesignTimeRectangle="1177, 623, 100, 30" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Order'" FullSelectorArgument="&lt;webctrl id='home_product_detail' tag='TABLE' /&gt;&lt;webctrl id='login_button' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='home_product_detail' tag='TABLE' /&gt;&lt;webctrl id='login_button' type='submit' tag='INPUT' class='' aaname='Order' check:text='Order' /&gt;" Guid="d756e623-0534-4204-a9f8-726db1292b99" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAiCAYAAACz35yrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFdSURBVGhD7ZZBDoIwFAW5szdxzVXYeAe5AHvdmqhUgX76PlRBQ+IzeZNMjKUSwthCEQQ1CkSOApHjAhX7iyQQUSBCEQUiFFEgQhEFIhRRIEIRBSIUUSBCEQUiFOELdGzj1SSqQ2bekvE85+aaP04sQhVo1wzXUR/TWHmaj61SgTb2cA/n7iJOt8mxa6j6a25D6cYXVKBtza2e6THb6sZVFT+HCBZyoGrmgex3PZd72MXxYn8LdT/Whjqe46ttdSMRmkB283I3ZhrP5uLN93NSLJvjzx+DjKs1fn/yyzAm8teB0tzMNui2OFshadUM57D58+O/FPmrLe51oMwNzgXK4FaUAr3xg5eELVaQV4FWaSsFny0WA1fWPNCXz6AxiAKtN/7zEQzRmQuE4x2Lb3HutV2B5AciCkQookCEIgpEKKJAhCIKRCiiQIQiCkQookCEIi6Q4EOByFEgakJ4AKtvXvgGHzzgAAAAAElFTkSuQmCC" InformativeScreenshot="385c0cbfbc15064cc230931ee84af4d4.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Product Detail | Pega Studio Training Web Application' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH2SURBVFhH7ZS/SgNBEMZTCGIhprELGhG0MqbRxkJbESGPkM5WEGxs0lgfpLSxtPQNvCeQPIK+wbXpzu+3zsR1vcQoKhb3wcfdzs58Mzv7p1GjRo0av4XN9faRsW2mnwGC4rl4Lw7MHKAxCbGXCZ/Ec3P7HiTQFavEj2y+n9hTjsRmEPsqFDiIhFKy6l5im8Ynk5wPCmiKVD4RiP6dqc80FvadbyvkSMs9IcFVyXORM5HaoSesYt/SVEMOiLpAnDzYVvo3ZWM4dmZisXTxUKyeXhYb251ZiWNWF6GJaS0Nttb+SRElh3kyLpfP7sr1nYM4jk6lhVWfB034SWfVkMBJcGvvOE42EikgZZinUxtbHeLQZGFsKwcavcxSvkFG7jcBOHjbvRt8sd9KPFy9mRiOu2K2ePVYULTiPiaMIYd43z15/OWqhXusr19L7JAWd4NQiuG4uXD9nK3tHs6+gibiol4IreOBefeAaBwKsCFjfLGF59fMAWaj9T0zuY0teX1JmRQR8QJo9yQghea8A/h5F7zgTGQBaPJl7NuIDV8/BzliVOICOFe3MoJ80g6wQi+ITsKgafO+QArMzfaqYT+34qeJHZPgCBpTPElJwmFmYRTiXaIAf9zIF7pi4b8DJaBQzlAoxMx/ByXlZoVDaKYaNWr8NzQaL8eEf+BHvBMgAAAAAElFTkSuQmCC" InformativeScreenshot="70c27fcd98d36f522ca23a2cd9bfad1c.jpg" Selector="&lt;html app='msedge.exe' title='Home | Pega Studio Training Web Application' /&gt;" Title="Home | Pega Studio Training Web Application" Url="https://training.openspan.com/home" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
