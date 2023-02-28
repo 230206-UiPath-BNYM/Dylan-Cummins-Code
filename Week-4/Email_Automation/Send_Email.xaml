@@ -70,7 +70,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="This is from your throwaway account" DisplayName="Send SMTP Mail Message" Email="emailauto8754@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="337.6,148.8" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Password="ucyzozdinqmyatvt" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Test" To="dylan_cummins20@yahoo.com">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="This is from your throwaway account" DisplayName="Send SMTP Mail Message" Email="emailauto8754@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="337.6,148.8" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Name="Rob Bot" Password="ucyzozdinqmyatvt" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Test" To="dylan_cummins20@yahoo.com">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </ui:SendMail.Files>
